@@ -1,0 +1,36 @@
+<svg width="1100" height="460" viewBox="0 0 1100 460" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="vg" x1="140" y1="390" x2="986" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0F6D66"/>
+      <stop offset="1" stop-color="#B1492F"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="6" y="6" width="1088" height="448" rx="26" fill="#FFF9F0" stroke="#DEC8AE"/>
+
+  <path d="M106 364C220 364 268 336 366 282C482 218 522 164 638 154C754 144 822 182 1010 230" stroke="url(#vg)" stroke-width="13" stroke-linecap="round"/>
+
+  <path d="M106 330L1010 330" stroke="#C9B396" stroke-width="1.5" stroke-dasharray="6 8"/>
+
+  <g fill="#0F6D66">
+    <circle cx="366" cy="282" r="13"/>
+    <circle cx="638" cy="154" r="13"/>
+  </g>
+
+  <g fill="#B1492F">
+    <circle cx="522" cy="164" r="11"/>
+    <circle cx="1010" cy="230" r="13"/>
+  </g>
+
+  <g fill="#4C3B2A" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="28">
+    <text x="90" y="106">执行成本</text>
+    <text x="350" y="106">判断价值</text>
+    <text x="612" y="106">审美阈值</text>
+    <text x="864" y="106">战略杠杆</text>
+  </g>
+
+  <g fill="#6C5A47" font-family="STSong, Songti SC, serif" font-size="22">
+    <text x="84" y="404">传统路径</text>
+    <text x="972" y="404" text-anchor="end">AI时代路径</text>
+  </g>
+</svg>

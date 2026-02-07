@@ -1,0 +1,53 @@
+<svg width="1200" height="820" viewBox="0 0 1200 820" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="118" y1="54" x2="1080" y2="760" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFF8EA"/>
+      <stop offset="1" stop-color="#EEDBC6"/>
+    </linearGradient>
+    <linearGradient id="core" x1="300" y1="150" x2="810" y2="540" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0F6D66" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#B1492F" stop-opacity="0.92"/>
+    </linearGradient>
+    <filter id="blur" x="0" y="0" width="1200" height="820" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="34"/>
+    </filter>
+  </defs>
+
+  <rect x="14" y="14" width="1172" height="792" rx="42" fill="url(#bg)"/>
+  <g filter="url(#blur)" opacity="0.35">
+    <circle cx="950" cy="650" r="160" fill="#C76A4D"/>
+    <circle cx="350" cy="630" r="170" fill="#218279"/>
+  </g>
+
+  <path d="M210 580C338 372 493 218 680 176C826 144 972 194 1036 294C1090 378 1068 500 992 596C908 702 756 768 598 756C432 744 296 680 210 580Z" fill="url(#core)" opacity="0.92"/>
+
+  <g stroke="#0B3F3A" stroke-opacity="0.22" stroke-width="2">
+    <path d="M150 640C288 616 432 546 562 430C684 322 768 230 932 178"/>
+    <path d="M180 370C322 416 456 398 600 344C742 292 848 230 1026 244"/>
+    <path d="M208 710C392 692 506 626 642 512C786 390 922 326 1054 322"/>
+  </g>
+
+  <g fill="#FFF4E6" fill-opacity="0.92">
+    <circle cx="336" cy="604" r="10"/>
+    <circle cx="522" cy="464" r="10"/>
+    <circle cx="688" cy="332" r="10"/>
+    <circle cx="862" cy="244" r="10"/>
+    <circle cx="438" cy="394" r="8"/>
+    <circle cx="618" cy="348" r="8"/>
+    <circle cx="926" cy="320" r="8"/>
+  </g>
+
+  <g>
+    <rect x="130" y="110" width="336" height="114" rx="16" fill="#F7E8D5" stroke="#DDC6AD"/>
+    <text x="164" y="176" fill="#1E2E2B" font-size="42" font-family="STSong, Songti SC, serif" letter-spacing="2">AI时代</text>
+    <rect x="130" y="244" width="410" height="88" rx="14" fill="#FFF4E7" stroke="#DDC6AD"/>
+    <text x="164" y="300" fill="#4D463A" font-size="30" font-family="PingFang SC, Microsoft YaHei, sans-serif">认知、判断与愿景</text>
+  </g>
+
+  <g stroke="#FCE9D4" stroke-opacity="0.8">
+    <path d="M662 246L780 186"/>
+    <path d="M576 318L802 286"/>
+    <path d="M502 430L732 448"/>
+    <path d="M388 540L632 614"/>
+  </g>
+</svg>
