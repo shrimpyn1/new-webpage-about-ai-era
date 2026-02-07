@@ -478,6 +478,41 @@ body {
   background: #e6d9c7;
 }
 
+.closing-signature {
+  margin: 8px 0 40px;
+  padding: 28px 30px;
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(177, 73, 47, 0.3);
+  background: linear-gradient(135deg, rgba(255, 250, 242, 0.95), rgba(250, 236, 221, 0.86));
+  box-shadow: 0 12px 26px rgba(58, 41, 19, 0.06);
+}
+
+.closing-kicker {
+  margin: 0 0 8px;
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--secondary);
+  font-family: "Source Han Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+}
+
+.closing-signature h3 {
+  margin: 0 0 12px;
+  font-size: clamp(1.2rem, 2.7vw, 1.8rem);
+  line-height: 1.35;
+  color: #2d261d;
+  font-family: "Source Han Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+}
+
+.closing-signature p {
+  margin: 0 0 12px;
+  color: #393127;
+}
+
+.closing-signature p:last-child {
+  margin-bottom: 0;
+}
+
 .glossary-panel {
   position: fixed;
   right: 28px;
@@ -655,6 +690,11 @@ body {
   .evidence {
     padding: 20px 16px;
     margin-bottom: 44px;
+  }
+
+  .closing-signature {
+    padding: 22px 18px;
+    margin-bottom: 32px;
   }
 
   .bar-row {
