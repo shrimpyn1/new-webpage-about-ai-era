@@ -112,6 +112,12 @@ body {
   line-height: 1.18;
 }
 
+.hero-title-ai {
+  display: inline-block;
+  font-size: 1.08em;
+  line-height: 1;
+}
+
 .hero-subtitle {
   margin: 14px 0 0;
   color: var(--secondary);
